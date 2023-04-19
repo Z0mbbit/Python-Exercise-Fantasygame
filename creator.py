@@ -17,15 +17,10 @@ role_number = random.randint(1,3)
 
 if role_number == 1:
     char_role = "Warrior"
-
-
 elif role_number == 2:
     char_role = "Wizard"
-    
 else:
     char_role = "Potato"
-
-
 
 print(character1, "is a", char_role)
 strength = random.randint(5,10)
